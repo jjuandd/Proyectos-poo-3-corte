@@ -52,7 +52,7 @@ class registo_cliente:
         return self._codigo
             
     def libro1(self):
-        Menu=[
+        Menu_libros=[
             ["titulo:la bella y la bestia"],
             ["Autor: Gabrielle-Suzanne Barbot de Villeneuve"],
             ["# de edicion: 1"],
@@ -62,12 +62,14 @@ class registo_cliente:
             ["Idioma:Español"],
             ["ISBN: 897766664"],
         ]
+        print(".........................................")
         for x in range(6):
-            print(Menu[x][0])
+            print(Menu_libros[x][0])
         self.__init__()
+        print(".........................................")
         
     def libro2(self):
-        Menu=[
+        Menu_libros=[
             ["Titulo : El arte de la guerra"],
             ["# de edicion: 1"],
             ["Autor: Sun Tzu"],
@@ -75,13 +77,15 @@ class registo_cliente:
             ["Idiomas originales: Chino, Chino clásico"],
             ["ISBN: 8766443211"],
         ]
+        print(".........................................")
         for x in range(6):
-            print(Menu[x][0])
+            print(Menu_libros[x][0])
         self.__init__()
+        print(".........................................")
         
         
     def libro3(self):
-        Menu=[
+        Menu_libros=[
             ["Titulo : El ego es el enemigo"],
             ["# de edicion: 5"],
             ["Autor: Ryan Holiday"],
@@ -90,13 +94,15 @@ class registo_cliente:
             ["ISBN:990011223"],
             ["Fecha de publicación original: 14 de junio de 2016"],
         ]
+        print(".........................................")
         for x in range(6):
-            print(Menu[x][0])
+            print(Menu_libros[x][0])
         self.__init__()
+        print(".........................................")
         
         
     def libro_4(self):
-        Menu=[
+        Menu_libros=[
             ["Titulo : Cumbres Borrascosas"],
             ["Autora: Emily Brontë"],
             ["# de edicion: 7"],
@@ -105,12 +111,14 @@ class registo_cliente:
             ["Fecha de publicación original: diciembre de 1847"],
             ["ISBN: 877889003"],
         ]
+        print(".........................................")
         for x in range(6):
-            print(Menu[x][0])
+            print(Menu_libros[x][0])
         self.__init__()
+        print(".........................................")
     
     def libro_5(self):
-        Menu=[
+        Menu_libros=[
             ["Titulo : las mujeres que aman demasiado"],
             ["Autora: Robin Norwood"],
             ["# de edicion: 2"],
@@ -119,9 +127,11 @@ class registo_cliente:
             ["Idioma original: Inglés"],
             ["ISBN: 18291003"],
         ]
+        print(".........................................")
         for x in range(6):
-            print(Menu[x][0])
+            print(Menu_libros[x][0])
         self.__init__()
+        
     
 
 class libroAprestar(registo_cliente,libros):
